@@ -1,5 +1,7 @@
 # simplemail
 
+[中文说明文档](README-zh.md)
+
 simple python package for sending mail.
 
 # Installation

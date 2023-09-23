@@ -6,7 +6,7 @@ setup(
     description="A simple mail for sending mail",
     author="Anke Tang",
     packages=find_packages(),
-    install_requires=["yagmail"],
+    install_requires=["yagmail", "omegaconf"],
     entry_points={
         "console_scripts": [
             "simplemail=simplemail.cli:main",
