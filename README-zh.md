@@ -27,3 +27,13 @@ send_mail(subject='subject:test', contents='test mail')
 ```
 
 您的配置在 `~/.config/simplemail/config.yaml` 中，使用默认模式 `600`（仅可被当前用户读写）。
+
+## 如何得到SMTP授权码（密码）
+
+以QQ邮箱为例，进入QQ邮箱，选择设置->账号
+
+![Alt text](images/qq-account.jpg)
+
+选择POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务，开启POP3/SMTP服务，点击“管理服务”，一顿操作后会得到一个授权码，这个授权码就是密码。
+
+![Alt text](images/qq-smtp.jpeg)
