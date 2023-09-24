@@ -4,6 +4,14 @@
 
 # Installation
 
+Gitee (国内推荐):
+
+```bash
+pip install git+https://gitee.com/tanganke/simplemail.git
+```
+
+GitHub:
+
 ```bash
 pip install git+https://github.com/tanganke/simplemail.git
 ```
